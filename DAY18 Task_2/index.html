@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Cat Image</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container text-center my-5">
+        <h1>Random Cat Image</h1>
+        <button id="fetch-cat-btn" class="btn btn-primary mt-3">Get Cat Image</button>
+        <div class="mt-4">
+            <img id="cat-image" src="" alt="Random Cat" class="img-fluid mt-3" style="max-height: 400px;">
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("fetch-cat-btn").onclick = function() {
+            fetch('https://api.thecatapi.com/v1/images/search')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("cat-image").src = data[0].url;
+                })
+                .catch(error => alert("Failed to fetch cat image"));
+        };
+    </script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>

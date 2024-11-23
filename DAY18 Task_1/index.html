@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Dog Image</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container text-center my-5">
+        <h1>Random Dog Image</h1>
+        <button id="fetch-dog-btn" class="btn btn-primary mt-3">Get Dog Image</button>
+        <div class="mt-4">
+            <img id="dog-image" src="" alt="Random Dog" class="img-fluid mt-3" style="max-height: 400px;">
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("fetch-dog-btn").onclick = function() {
+            fetch('https://dog.ceo/api/breeds/image/random')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("dog-image").src = data.message;
+                })
+                .catch(error => alert("Failed to fetch dog image"));
+        };
+    </script>
+</body>
+</html>

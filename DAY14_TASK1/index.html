@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagination with Table and Bootstrap</title>
+  <!-- Link to Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom styling to make the table scrollable on smaller screens */
+    .table-wrapper {
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Pagination Task</h1>
+
+    <!-- Custom scrollable table wrapper -->
+    <div class="table-wrapper">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Name</th>
+          </tr>
+        </thead>
+        <tbody id="data-container"></tbody>
+      </table>
+    </div>
+
+    <!-- Pagination buttons -->
+    <nav aria-label="Page navigation">
+      <ul id="pagination-buttons" class="pagination justify-content-center mt-4"></ul>
+    </nav>
+  </div>
+
+  <!-- JavaScript and Bootstrap dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const apiUrl = 'https://raw.githubusercontent.com/Rajavasanthan/jsondata/master/pagenation.json';
+
+    let currentPage = 1;
+    const itemsPerPage = 5;
+    let data = [];
+
+    // Fetch data from the provided URL
+    async function fetchData() {
+      try {
+        const response = await fetch(apiUrl);
+        data = await response.json();
+        renderData();
+        renderPaginationButtons();
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    }
+
+    // Render data items for the current page
+    function renderData() {
+      const dataContainer = document.getElementById('data-container');
+      dataContainer.innerHTML = '';
+
+      const startIndex = (currentPage - 1) * itemsPerPage;
+      const endIndex = startIndex + itemsPerPage;
+      const itemsToShow = data.slice(startIndex, endIndex);
+
+      itemsToShow.forEach(item => {
+        const row = document.createElement('tr');
+        row.innerHTML = `<td>${item.name}</td>`;
+        dataContainer.appendChild(row);
+      });
+    }
+
+    // Render pagination buttons with First, Previous, Next, and Last
+    function renderPaginationButtons() {
+      const paginationContainer = document.getElementById('pagination-buttons');
+      paginationContainer.innerHTML = '';
+
+      const totalPages = Math.ceil(data.length / itemsPerPage);
+
+      // First button
+      const firstButton = document.createElement('li');
+      firstButton.classList.add('page-item');
+      firstButton.innerHTML = `<a class="page-link" href="#">First</a>`;
+      if (currentPage === 1) firstButton.classList.add('disabled');
+      firstButton.onclick = () => {
+        currentPage = 1;
+        renderData();
+        renderPaginationButtons();
+      };
+      paginationContainer.appendChild(firstButton);
+
+      // Previous button
+      const prevButton = document.createElement('li');
+      prevButton.classList.add('page-item');
+      prevButton.innerHTML = `<a class="page-link" href="#">Previous</a>`;
+      if (currentPage === 1) prevButton.classList.add('disabled');
+      prevButton.onclick = () => {
+        if (currentPage > 1) {
+          currentPage--;
+          renderData();
+          renderPaginationButtons();
+        }
+      };
+      paginationContainer.appendChild(prevButton);
+
+      // Page number buttons
+      for (let i = 1; i <= totalPages; i++) {
+        const pageButton = document.createElement('li');
+        pageButton.classList.add('page-item');
+        if (i === currentPage) pageButton.classList.add('active');
+        pageButton.innerHTML = `<a class="page-link" href="#">${i}</a>`;
+        pageButton.onclick = () => {
+          currentPage = i;
+          renderData();
+          renderPaginationButtons();
+        };
+        paginationContainer.appendChild(pageButton);
+      }
+
+      // Next button
+      const nextButton = document.createElement('li');
+      nextButton.classList.add('page-item');
+      nextButton.innerHTML = `<a class="page-link" href="#">Next</a>`;
+      if (currentPage === totalPages) nextButton.classList.add('disabled');
+      nextButton.onclick = () => {
+        if (currentPage < totalPages) {
+          currentPage++;
+          renderData();
+          renderPaginationButtons();
+        }
+      };
+      paginationContainer.appendChild(nextButton);
+
+      // Last button
+      const lastButton = document.createElement('li');
+      lastButton.classList.add('page-item');
+      lastButton.innerHTML = `<a class="page-link" href="#">Last</a>`;
+      if (currentPage === totalPages) lastButton.classList.add('disabled');
+      lastButton.onclick = () => {
+        currentPage = totalPages;
+        renderData();
+        renderPaginationButtons();
+      };
+      paginationContainer.appendChild(lastButton);
+    }
+
+    // Initialize pagination on page load
+    fetchData();
+  </script>
+  <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+
+</body>
+</html>
