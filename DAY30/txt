@@ -1,0 +1,71 @@
+Create database GuviZenClass;
+use GuviZenClass;
+
+
+create table Users  (
+    user_id int(50) AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(300) NOT NULL,
+    email VARCHAR(300) NOT NULL UNIQUE,
+    userpassword VARCHAR(300) NOT NULL,
+    role ENUM('student', 'instructor', 'admin') DEFAULT 'student');
+    
+CREATE TABLE Courses (
+    course_id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(100),
+    coursedescription VARCHAR(255),
+    instructor_id INT(255),
+    Fees INT(255)
+);    
+
+CREATE TABLE Batch (
+Batch_id INT(255) AUTO_INCREMENT PRIMARY KEY,
+Batch_name VARCHAR (255) NOT NULL UNIQUE,
+Batch_start_date INT(255) NOT NULL,
+Batch_end_date INT(255) NOT NULL);
+
+CREATE TABLE Sessions (
+    Session_id INT (255) AUTO_INCREMENT PRIMARY KEY,
+    course_id INT, -- References Courses table
+    Batch_id INT(255) ,
+    title VARCHAR(100),
+    Session_order INT (255),
+    Recordings VARCHAR(255),
+    Session_date  INT(255)
+);
+
+
+CREATE TABLE Task (
+    Task_id INT AUTO_INCREMENT PRIMARY KEY,
+    course_id INT, -- References Courses table
+    title VARCHAR(100),
+    Link_description VARCHAR(255),
+    due_date DATE
+);
+
+CREATE TABLE Submissions (
+    submission_id INT AUTO_INCREMENT PRIMARY KEY,
+    Task_id INT, -- References Task table
+    student_id INT, -- References Users table
+    content VARCHAR(255),
+    Marks INT(255)
+);
+
+CREATE TABLE Feedback (
+Feedback_id INT AUTO_INCREMENT PRIMARY KEY,
+Course_feedback VARCHAR(255),
+Instructor_feedback VARCHAR(255),
+User_id INT(255)  -- References Users table
+);
+
+CREATE TABLE Progress (
+    progress_id INT AUTO_INCREMENT PRIMARY KEY,
+    course_id INT, -- References Courses table
+    student_id INT, -- References Users table
+    Task_id INT,  -- References Task table
+    completed_lessons INT,
+    total_lessons INT,
+    completed_task INT,
+    total_task INT
+);
+
+
