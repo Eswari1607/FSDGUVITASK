@@ -1,0 +1,99 @@
+use ZenClassDB;
+
+// Create Users Collection
+db.users.insertMany([
+    { "user_id": 1, "name": "Alice", "email": "alice@example.com", "phone": "1234567890", "mentor_id": 101 },
+    { "user_id": 2, "name": "Bob", "email": "bob@example.com", "phone": "0987654321", "mentor_id": 102 },
+    { "user_id": 3, "name": "Charlie", "email": "charlie@example.com", "phone": "1122334455", "mentor_id": 101 },
+    { "user_id": 4, "name": "David", "email": "david@example.com", "phone": "5566778899", "mentor_id": 103 },
+    { "user_id": 5, "name": "Eve", "email": "eve@example.com", "phone": "6677889900", "mentor_id": 101 },
+    { "user_id": 6, "name": "Frank", "email": "frank@example.com", "phone": "9988776655", "mentor_id": 104 },
+    { "user_id": 7, "name": "Grace", "email": "grace@example.com", "phone": "4455667788", "mentor_id": 105 },
+    { "user_id": 8, "name": "Hank", "email": "hank@example.com", "phone": "2233445566", "mentor_id": 106 },
+    { "user_id": 9, "name": "Ivy", "email": "ivy@example.com", "phone": "3344556677", "mentor_id": 105 },
+    { "user_id": 10, "name": "Jack", "email": "jack@example.com", "phone": "5566889900", "mentor_id": 104 }
+]);
+
+// Create Codekata Collection
+db.codekata.insertMany([
+    { "user_id": 1, "problems_solved": 50 },
+    { "user_id": 2, "problems_solved": 40 },
+    { "user_id": 3, "problems_solved": 30 },
+    { "user_id": 4, "problems_solved": 45 },
+    { "user_id": 5, "problems_solved": 60 },
+    { "user_id": 6, "problems_solved": 35 },
+    { "user_id": 7, "problems_solved": 55 },
+    { "user_id": 8, "problems_solved": 20 },
+    { "user_id": 9, "problems_solved": 25 },
+    { "user_id": 10, "problems_solved": 65 }
+]);
+
+// Create Attendance Collection
+db.attendance.insertMany([
+    { "user_id": 1, "date": new Date("2020-10-01"), "status": "present" },
+    { "user_id": 2, "date": new Date("2020-10-01"), "status": "absent" },
+    { "user_id": 3, "date": new Date("2020-10-01"), "status": "present" },
+    { "user_id": 4, "date": new Date("2020-10-01"), "status": "absent" },
+    { "user_id": 5, "date": new Date("2020-10-01"), "status": "present" },
+    { "user_id": 6, "date": new Date("2020-10-01"), "status": "absent" },
+    { "user_id": 7, "date": new Date("2020-10-01"), "status": "present" },
+    { "user_id": 8, "date": new Date("2020-10-01"), "status": "absent" },
+    { "user_id": 9, "date": new Date("2020-10-01"), "status": "present" },
+    { "user_id": 10, "date": new Date("2020-10-01"), "status": "absent" }
+]);
+
+// Create Topics Collection
+db.topics.insertMany([
+    { "topic_id": 1, "name": "JavaScript Basics", "date": new Date("2020-10-01") },
+    { "topic_id": 2, "name": "Advanced JavaScript", "date": new Date("2020-10-02") },
+    { "topic_id": 3, "name": "Node.js Introduction", "date": new Date("2020-10-03") },
+    { "topic_id": 4, "name": "Express.js Fundamentals", "date": new Date("2020-10-04") },
+    { "topic_id": 5, "name": "MongoDB Basics", "date": new Date("2020-10-05") },
+    { "topic_id": 6, "name": "React.js Introduction", "date": new Date("2020-10-06") },
+    { "topic_id": 7, "name": "Redux Fundamentals", "date": new Date("2020-10-07") },
+    { "topic_id": 8, "name": "Node.js Advanced", "date": new Date("2020-10-08") },
+    { "topic_id": 9, "name": "GraphQL Basics", "date": new Date("2020-10-09") },
+    { "topic_id": 10, "name": "TypeScript Essentials", "date": new Date("2020-10-10") }
+]);
+
+// Create Tasks Collection
+db.tasks.insertMany([
+    { "task_id": 1, "topic_id": 1, "name": "JavaScript Basics Task", "submission_date": new Date("2020-10-02"), "user_id": 1, "status": "submitted" },
+    { "task_id": 2, "topic_id": 2, "name": "Advanced JavaScript Task", "submission_date": new Date("2020-10-03"), "user_id": 2, "status": "not submitted" },
+    { "task_id": 3, "topic_id": 3, "name": "Node.js Introduction Task", "submission_date": new Date("2020-10-04"), "user_id": 3, "status": "submitted" },
+    { "task_id": 4, "topic_id": 4, "name": "Express.js Fundamentals Task", "submission_date": new Date("2020-10-05"), "user_id": 4, "status": "not submitted" },
+    { "task_id": 5, "topic_id": 5, "name": "MongoDB Basics Task", "submission_date": new Date("2020-10-06"), "user_id": 5, "status": "submitted" },
+    { "task_id": 6, "topic_id": 6, "name": "React.js Introduction Task", "submission_date": new Date("2020-10-07"), "user_id": 6, "status": "not submitted" },
+    { "task_id": 7, "topic_id": 7, "name": "Redux Fundamentals Task", "submission_date": new Date("2020-10-08"), "user_id": 7, "status": "submitted" },
+    { "task_id": 8, "topic_id": 8, "name": "Node.js Advanced Task", "submission_date": new Date("2020-10-09"), "user_id": 8, "status": "not submitted" },
+    { "task_id": 9, "topic_id": 9, "name": "GraphQL Basics Task", "submission_date": new Date("2020-10-10"), "user_id": 9, "status": "submitted" },
+    { "task_id": 10, "topic_id": 10, "name": "TypeScript Essentials Task", "submission_date": new Date("2020-10-11"), "user_id": 10, "status": "not submitted" }
+]);
+
+// Create Company_Drives Collection
+db.company_drives.insertMany([
+    { "company_id": 1, "name": "Google", "date": new Date("2020-10-15"), "students_attended": [1, 2, 3] },
+    { "company_id": 2, "name": "Microsoft", "date": new Date("2020-10-16"), "students_attended": [4, 5, 6] },
+    { "company_id": 3, "name": "Amazon", "date": new Date("2020-10-17"), "students_attended": [7, 8, 9] },
+    { "company_id": 4, "name": "Facebook", "date": new Date("2020-10-18"), "students_attended": [10, 1, 2] },
+    { "company_id": 5, "name": "Apple", "date": new Date("2020-10-19"), "students_attended": [3, 4, 5] },
+    { "company_id": 6, "name": "Netflix", "date": new Date("2020-10-20"), "students_attended": [6, 7, 8] },
+    { "company_id": 7, "name": "Tesla", "date": new Date("2020-10-21"), "students_attended": [9, 10, 1] },
+    { "company_id": 8, "name": "Uber", "date": new Date("2020-10-22"), "students_attended": [2, 3, 4] },
+    { "company_id": 9, "name": "LinkedIn", "date": new Date("2020-10-23"), "students_attended": [5, 6, 7] },
+    { "company_id": 10, "name": "Spotify", "date": new Date("2020-10-24"), "students_attended": [8, 9, 10] }
+]);
+
+// Create Mentors Collection
+db.mentors.insertMany([
+    { "mentor_id": 101, "name": "Mentor One", "mentees": 20 },
+    { "mentor_id": 102, "name": "Mentor Two", "mentees": 18 },
+    { "mentor_id": 103, "name": "Mentor Three", "mentees": 25 },
+    { "mentor_id": 104, "name": "Mentor Four", "mentees": 30 },
+    { "mentor_id": 105, "name": "Mentor Five", "mentees": 10 },
+    { "mentor_id": 106, "name": "Mentor Six", "mentees": 15 },
+    { "mentor_id": 107, "name": "Mentor Seven", "mentees": 22 },
+    { "mentor_id": 108, "name": "Mentor Eight", "mentees": 16 },
+    { "mentor_id": 109, "name": "Mentor Nine", "mentees": 12 },
+    { "mentor_id": 110, "name": "Mentor Ten", "mentees": 28 }
+]);

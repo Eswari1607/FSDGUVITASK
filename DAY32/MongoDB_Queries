@@ -1,0 +1,67 @@
+//1) Find all the topics and tasks which are taught in the month of October:
+
+// Topics in October
+db.topics.find({
+    date: {
+        $gte: new Date("2020-10-01"),
+        $lte: new Date("2020-10-31")
+    }
+}).pretty();
+
+// Tasks in October
+db.tasks.find({
+    submission_date: {
+        $gte: new Date("2020-10-01"),
+        $lte: new Date("2020-10-31")
+    }
+}).pretty();
+
+
+// 2) Find all the company drives which appeared between 15 Oct 2020 and 31 Oct 2020:
+
+db.company_drives.find({
+    date: {
+        $gte: new Date("2020-10-15"),
+        $lte: new Date("2020-10-31")
+    }
+}).pretty();
+
+
+// 3) Find all the company drives and students who appeared for the placement:
+
+db.company_drives.find().forEach(function(drive) {
+    print("Company Drive: " + drive.name);
+    drive.students_attended.forEach(function(student_id) {
+        var student = db.users.findOne({user_id: student_id});
+        print("Student: " + student.name);
+    });
+});
+
+// 4) Find the number of problems solved by the user in Codekata:
+
+db.codekata.find().forEach(function(user) {
+    print("User ID: " + user.user_id + ", Problems Solved: " + user.problems_solved);
+});
+
+// 5) Find all the mentors who have mentees count more than 15:
+
+db.mentors.find({
+    mentees: { $gt: 15 }
+}).pretty();
+
+
+// 6) Find the number of users who are absent and task is not submitted between 15 Oct 2020 and 31 Oct 2020:
+
+var absentUsers = db.attendance.find({
+    date: { $gte: new Date("2020-10-15"), $lte: new Date("2020-10-31") },
+    status: "absent"
+}).map(function(attendance) { return attendance.user_id; });
+
+var usersWithUnsubmittedTasks = db.tasks.find({
+    submission_date: { $gte: new Date("2020-10-15"), $lte: new Date("2020-10-31") },
+    status: "not submitted",
+    user_id: { $in: absentUsers }
+}).map(function(task) { return task.user_id; });
+
+print("Number of users who are absent and tasks not submitted: " + usersWithUnsubmittedTasks.length);
+

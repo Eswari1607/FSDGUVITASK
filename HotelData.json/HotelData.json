@@ -1,0 +1,1527 @@
+{
+    "delhi": [
+        {
+            "id": "97967512-0f0c-448b-a330-9f242f729bc1",
+            "name": "Delia My Bar Headquarters",
+            "location": "Karol Bagh, Central Delhi",
+            "price": "3000",
+            "priceDetail": "₹ 3,000 for 2 approx",
+            "tags": [
+                "American",
+                "Bengali",
+                "5 Star",
+                "Buffet",
+                "Bakery"
+            ],
+            "ratings": "8.5",
+            "image": "https://img.freepik.com/free-photo/vertical-shot-traditional-indian-paneer-butter-masala-cheese-cottage-curry-black-surface_181624-32001.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 30,
+            "menuItems": [
+                "Paneer Butter Masala",
+                "Chicken Tikka",
+                "Bengali Fish Curry",
+                "American Burgers"
+            ],
+            "contact": {
+                "phone": "+91-9876543210",
+                "email": "deliamybar@example.com"
+            },
+            "hoursOfOperation": "10:00 AM - 11:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/american-burger_62845-134.jpg",
+                "https://img.freepik.com/free-photo/chicken-tikka_62845-135.jpg"
+            ]
+        },
+        {
+            "id": "48a44e46-eaaa-4a7d-989f-45b24eb7f3d4",
+            "name": "Saffron Grill",
+            "location": "Punjabi Bagh, West Delhi",
+            "price": "2800",
+            "priceDetail": "₹ 2,800 for 2 approx",
+            "tags": [
+                "Indian",
+                "Chinese",
+                "4 Star",
+                "A La Carte"
+            ],
+            "ratings": "7.8",
+            "image": "https://img.freepik.com/free-photo/fruit-salad-spilling-floor-was-mess-vibrant-colors-textures-generative-ai_8829-2895.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 10,
+            "menuItems": [
+                "Tandoori Chicken",
+                "Veg Manchurian",
+                "Hakka Noodles",
+                "Chilli Paneer"
+            ],
+            "contact": {
+                "phone": "+91-8765432109",
+                "email": "saffrongrill@example.com"
+            },
+            "hoursOfOperation": "11:00 AM - 10:30 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/tandoori-chicken_62845-136.jpg",
+                "https://img.freepik.com/free-photo/veg-manchurian_62845-137.jpg"
+            ]
+        },
+        {
+            "id": "13087731-7e00-42c4-839e-69b5991c8548",
+            "name": "The Darbar",
+            "location": "Connaught Place, Central Delhi",
+            "price": "2000",
+            "priceDetail": "₹ 2,000 for 2 approx",
+            "tags": [
+                "Indian",
+                "Mughlai",
+                "3 Star",
+                "Buffet"
+            ],
+            "ratings": "6.9",
+            "image": "https://img.freepik.com/free-photo/top-view-meals-tasty-yummy-different-pastries-dishes-brown-surface_140725-14554.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 15,
+            "menuItems": [
+                "Butter Chicken",
+                "Naan",
+                "Biryani",
+                "Mutton Rogan Josh"
+            ],
+            "contact": {
+                "phone": "+91-7654321098",
+                "email": "thedarbar@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 10:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/butter-chicken_62845-138.jpg",
+                "https://img.freepik.com/free-photo/mutton-rogan-josh_62845-139.jpg"
+            ]
+        },
+        {
+            "id": "83944d8b-4ff4-41e1-8b08-abae68ee4257",
+            "name": "Rooftop Bistro",
+            "location": "Lajpat Nagar, South Delhi",
+            "price": "3500",
+            "priceDetail": "₹ 3,500 for 2 approx",
+            "tags": [
+                "Italian",
+                "Continental",
+                "5 Star",
+                "A La Carte"
+            ],
+            "ratings": "8.2",
+            "image": "https://img.freepik.com/premium-photo/chicken-shish-kebab-with-zucchini_2829-8370.jpg?size=626&ext=jpg",
+            "discount": 20,
+            "menuItems": [
+                "Pasta Alfredo",
+                "Margherita Pizza",
+                "Grilled Chicken",
+                "Caesar Salad"
+            ],
+            "contact": {
+                "phone": "+91-6543210987",
+                "email": "rooftopbistro@example.com"
+            },
+            "hoursOfOperation": "11:30 AM - 11:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/pasta-alfredo_62845-140.jpg",
+                "https://img.freepik.com/free-photo/margherita-pizza_62845-141.jpg"
+            ]
+        },
+        {
+            "id": "057b69a1-fe71-4dbb-b575-0818b589c878",
+            "name": "Green Leaf",
+            "location": "Hauz Khas, South Delhi",
+            "price": "1500",
+            "priceDetail": "₹ 1,500 for 2 approx",
+            "tags": [
+                "Vegetarian",
+                "South Indian",
+                "3 Star",
+                "Buffet"
+            ],
+            "ratings": "7.1",
+            "image": "https://img.freepik.com/free-photo/traditional-american-pancakes-plate-table-top-view_140725-49397.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 10,
+            "menuItems": [
+                "Masala Dosa",
+                "Idli Sambhar",
+                "Uttapam",
+                "Vegetable Biryani"
+            ],
+            "contact": {
+                "phone": "+91-5432109876",
+                "email": "greenleaf@example.com"
+            },
+            "hoursOfOperation": "8:00 AM - 10:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/masala-dosa_62845-142.jpg",
+                "https://img.freepik.com/free-photo/uttapam_62845-143.jpg"
+            ]
+        },
+        {
+            "id": "bde02973-aa72-4430-b0a7-a07b5401cba8",
+            "name": "Bollywood Nights",
+            "location": "Rajouri Garden, West Delhi",
+            "price": "4500",
+            "priceDetail": "₹ 4,500 for 2 approx",
+            "tags": [
+                "Indian",
+                "Mughlai",
+                "5 Star",
+                "Buffet"
+            ],
+            "ratings": "9.5",
+            "image": "https://img.freepik.com/free-photo/fresh-gourmet-meal-beef-taco-salad-plate-generated-by-ai_188544-13382.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 25,
+            "menuItems": [
+                "Chicken Biryani",
+                "Paneer Tikka",
+                "Dal Makhani",
+                "Galouti Kebab"
+            ],
+            "contact": {
+                "phone": "+91-4321098765",
+                "email": "bollywoodnights@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 11:30 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/chicken-biryani_62845-144.jpg",
+                "https://img.freepik.com/free-photo/dal-makhani_62845-145.jpg"
+            ]
+        },
+        {
+            "id": "3e32c314-9f2d-4bc0-a834-ccc4b6d7788a",
+            "name": "Street Spice",
+            "location": "Chandni Chowk, Old Delhi",
+            "price": "1200",
+            "priceDetail": "₹ 1,200 for 2 approx",
+            "tags": [
+                "Indian",
+                "Street Food",
+                "3 Star",
+                "Buffet"
+            ],
+            "ratings": "7.4",
+            "image": "https://img.freepik.com/free-photo/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese_90220-1063.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 10,
+            "menuItems": [
+                "Chole Bhature",
+                "Pav Bhaji",
+                "Kathi Roll",
+                "Gol Gappa"
+            ],
+            "contact": {
+                "phone": "+91-3210987654",
+                "email": "streetspice@example.com"
+            },
+            "hoursOfOperation": "9:00 AM - 11:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/chole-bhature_62845-146.jpg",
+                "https://img.freepik.com/free-photo/pav-bhaji_62845-147.jpg"
+            ]
+        },
+        {
+            "id": "7365a497-c6f7-4c28-982c-b907f04d2162",
+            "name": "Fusion Bites",
+            "location": "Saket, South Delhi",
+            "price": "3200",
+            "priceDetail": "₹ 3,200 for 2 approx",
+            "tags": [
+                "Asian",
+                "Fusion",
+                "4 Star",
+                "A La Carte"
+            ],
+            "ratings": "8.0",
+            "image": "https://img.freepik.com/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 15,
+            "menuItems": [
+                "Sushi Rolls",
+                "Dim Sum",
+                "Pad Thai",
+                "Korean BBQ"
+            ],
+            "contact": {
+                "phone": "+91-2109876543",
+                "email": "fusionbites@example.com"
+            },
+            "hoursOfOperation": "11:00 AM - 10:30 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/sushi-rolls_62845-148.jpg",
+                "https://img.freepik.com/free-photo/pad-thai_62845-149.jpg"
+            ]
+        },
+        {
+            "id": "26b8c59f-8f49-4088-ba86-ed1bdef8311e",
+            "name": "Café Delight",
+            "location": "Vasant Kunj, South Delhi",
+            "price": "1800",
+            "priceDetail": "₹ 1,800 for 2 approx",
+            "tags": [
+                "Café",
+                "Continental",
+                "3 Star",
+                "Buffet"
+            ],
+            "ratings": "7.6",
+            "image": "https://img.freepik.com/free-photo/top-view-circular-food-frame_23-2148723455.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 10,
+            "menuItems": [
+                "Coffee",
+                "Sandwiches",
+                "Salads",
+                "Pasta"
+            ],
+            "contact": {
+                "phone": "+91-1098765432",
+                "email": "cafedelight@example.com"
+            },
+            "hoursOfOperation": "10:00 AM - 10:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/coffee_62845-150.jpg",
+                "https://img.freepik.com/free-photo/sandwiches_62845-151.jpg"
+            ]
+        },
+        {
+            "id": "f4b3819b-28bd-4d70-8505-7b5cbf77b3e4",
+            "name": "Golden Spice",
+            "location": "Janakpuri, West Delhi",
+            "price": "2600",
+            "priceDetail": "₹ 2,600 for 2 approx",
+            "tags": [
+                "Indian",
+                "Chinese",
+                "4 Star",
+                "Buffet"
+            ],
+            "ratings": "8.1",
+            "image": "https://img.freepik.com/free-photo/top-view-tasty-vegetable-salad-inside-plate-dark-blue-background-cuisine-restaurant-fresh-meal-color-health-lunch-food-diet_179666-18290.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 20,
+            "menuItems": [
+                "Paneer Butter Masala",
+                "Fried Rice",
+                "Spring Rolls",
+                "Gulab Jamun"
+            ],
+            "contact": {
+                "phone": "+91-9876543212",
+                "email": "goldenspice@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 10:30 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/paneer-butter-masala_62845-152.jpg",
+                "https://img.freepik.com/free-photo/gulab-jamun_62845-153.jpg"
+            ]
+        },
+        {
+            "id": "752f5cbb-c5de-4143-b385-68d07b80a059",
+            "name": "The Nook",
+            "location": "Greater Kailash, South Delhi",
+            "price": "3800",
+            "priceDetail": "₹ 3,800 for 2 approx",
+            "tags": [
+                "Italian",
+                "Mediterranean",
+                "5 Star",
+                "A La Carte"
+            ],
+            "ratings": "9.2",
+            "image": "https://img.freepik.com/free-photo/side-view-shawarma-with-fried-potatoes-board-cookware_176474-3215.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 25,
+            "menuItems": [
+                "Shawarma",
+                "Hummus with Pita",
+                "Pasta Carbonara",
+                "Tiramisu"
+            ],
+            "contact": {
+                "phone": "+91-8765432198",
+                "email": "thenook@example.com"
+            },
+            "hoursOfOperation": "11:00 AM - 11:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/shawarma_62845-154.jpg",
+                "https://img.freepik.com/free-photo/tiramisu_62845-155.jpg"
+            ]
+        },
+        {
+            "id": "d45a52a5-6468-461b-a667-415b23e25723",
+            "name": "Skyline Lounge",
+            "location": "Nehru Place, South Delhi",
+            "price": "2800",
+            "priceDetail": "₹ 2,800 for 2 approx",
+            "tags": [
+                "Cocktail Bar",
+                "Lounge",
+                "4 Star",
+                "Buffet"
+            ],
+            "ratings": "7.9",
+            "image": "https://img.freepik.com/premium-photo/manchurian-hakka-schezwan-noodles-popular-indochinese-food-served-bowl_466689-46402.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 10,
+            "menuItems": [
+                "Manchurian",
+                "Hakka Noodles",
+                "Schezwan Fried Rice",
+                "Spring Rolls"
+            ],
+            "contact": {
+                "phone": "+91-4567890123",
+                "email": "skyline@example.com"
+            },
+            "hoursOfOperation": "11:00 AM - 12:00 AM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/manchurian_62845-156.jpg",
+                "https://img.freepik.com/free-photo/hakka-noodles_62845-157.jpg"
+            ]
+        },
+        {
+            "id": "0d129aa4-31ad-4345-a226-1551e63c5658",
+            "name": "Pizzeria Italia",
+            "location": "Green Park, South Delhi",
+            "price": "2000",
+            "priceDetail": "₹ 2,000 for 2 approx",
+            "tags": [
+                "Italian",
+                "Pizza",
+                "3 Star",
+                "A La Carte"
+            ],
+            "ratings": "7.3",
+            "image": "https://img.freepik.com/premium-photo/photo-curry_931878-36478.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 15,
+            "menuItems": [
+                "Margherita Pizza",
+                "Pepperoni Pizza",
+                "Pasta Primavera",
+                "Tiramisu"
+            ],
+            "contact": {
+                "phone": "+91-5678901234",
+                "email": "pizzeriaitalia@example.com"
+            },
+            "hoursOfOperation": "11:30 AM - 11:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/margherita-pizza_62845-158.jpg",
+                "https://img.freepik.com/free-photo/tiramisu_62845-159.jpg"
+            ]
+        },
+        {
+            "id": "db894734-995d-44ef-a82c-5946bfa68c83",
+            "name": "Ocean Pearl",
+            "location": "Chanakyapuri, South Delhi",
+            "price": "3500",
+            "priceDetail": "₹ 3,500 for 2 approx",
+            "tags": [
+                "Seafood",
+                "Continental",
+                "5 Star",
+                "Buffet"
+            ],
+            "ratings": "8.4",
+            "image": "https://img.freepik.com/free-photo/chicken-skewers-with-slices-sweet-peppers-dill_2829-18813.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 20,
+            "menuItems": [
+                "Grilled Salmon",
+                "Lobster Thermidor",
+                "Fish Tacos",
+                "Key Lime Pie"
+            ],
+            "contact": {
+                "phone": "+91-6789012345",
+                "email": "oceanpearl@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 10:30 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/grilled-salmon_62845-160.jpg",
+                "https://img.freepik.com/free-photo/lobster-thermidor_62845-161.jpg"
+            ]
+        },
+        {
+            "id": "aeff589c-7682-4324-91d7-b69ed72af586",
+            "name": "Café Royal",
+            "location": "Okhla, South Delhi",
+            "price": "1800",
+            "priceDetail": "₹ 1,800 for 2 approx",
+            "tags": [
+                "Café",
+                "Continental",
+                "4 Star",
+                "Buffet"
+            ],
+            "ratings": "7.7",
+            "image": "https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 10,
+            "menuItems": [
+                "Club Sandwich",
+                "Caesar Salad",
+                "Cappuccino",
+                "Blueberry Cheesecake"
+            ],
+            "contact": {
+                "phone": "+91-7890123456",
+                "email": "caferoyal@example.com"
+            },
+            "hoursOfOperation": "8:00 AM - 10:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/club-sandwich_62845-162.jpg",
+                "https://img.freepik.com/free-photo/blueberry-cheesecake_62845-163.jpg"
+            ]
+        }
+    ],
+    "mumbai": [
+        {
+            "id": "b791827f-fddc-4489-9592-c273db0978e2",
+            "name": "Marine Palace",
+            "location": "Marine Drive, South Mumbai",
+            "price": "4000",
+            "priceDetail": "₹ 4,000 for 2 approx",
+            "tags": [
+                "Seafood",
+                "Italian",
+                "4 Star",
+                "Buffet",
+                "Best Bars"
+            ],
+            "ratings": "9.0",
+            "image": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "discount": 10,
+            "menuItems": [
+                "Grilled Lobster",
+                "Seafood Pasta",
+                "Pizza Margherita",
+                "Wine Selection"
+            ],
+            "contact": {
+                "phone": "+91-9988776655",
+                "email": "marinepalace@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 11:00 PM",
+            "photoGallery": [
+                "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=800"
+            ]
+        },
+        {
+            "id": "d5bf8342-34ce-4871-b354-a738089b5af1",
+            "name": "Bayview Bistro",
+            "location": "Juhu Beach, West Mumbai",
+            "price": "3200",
+            "priceDetail": "₹ 3,200 for 2 approx",
+            "tags": [
+                "Continental",
+                "Mediterranean",
+                "5 Star",
+                "A La Carte"
+            ],
+            "ratings": "8.2",
+            "image": "https://img.freepik.com/free-photo/exploding-burger-with-vegetables-melted-cheese-black-background-generative-ai_157027-1734.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 15,
+            "menuItems": [
+                "Grilled Salmon",
+                "Mediterranean Salad",
+                "Lamb Chops",
+                "Cheeseburger"
+            ],
+            "contact": {
+                "phone": "+91-8877665544",
+                "email": "bayviewbistro@example.com"
+            },
+            "hoursOfOperation": "11:00 AM - 11:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/exploding-burger-with-vegetables-melted-cheese-black-background-generative-ai_157027-1734.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "98aa091b-1407-47f4-969e-586c96d1fbc4",
+            "name": "Golden Sands",
+            "location": "Powai, Central Mumbai",
+            "price": "2500",
+            "priceDetail": "₹ 2,500 for 2 approx",
+            "tags": [
+                "Indian",
+                "Chinese",
+                "3 Star",
+                "Buffet"
+            ],
+            "ratings": "7.5",
+            "image": "https://img.freepik.com/premium-photo/paneer-tikka-is-indian-dish-made-from-chunks-cottage-cheese-marinated-spices-grilled-tandoor_466689-76797.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 20,
+            "menuItems": [
+                "Paneer Tikka",
+                "Hakka Noodles",
+                "Butter Chicken",
+                "Veg Manchurian"
+            ],
+            "contact": {
+                "phone": "+91-7766554433",
+                "email": "goldensands@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 10:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/premium-photo/paneer-tikka-is-indian-dish-made-from-chunks-cottage-cheese-marinated-spices-grilled-tandoor_466689-76797.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "cce42880-8711-4ef6-97da-2b0446fc2e7b",
+            "name": "Sunset Lounge",
+            "location": "Andheri, West Mumbai",
+            "price": "1800",
+            "priceDetail": "₹ 1,800 for 2 approx",
+            "tags": [
+                "Cocktail Bar",
+                "Lounge",
+                "4 Star",
+                "A La Carte"
+            ],
+            "ratings": "6.8",
+            "image": "https://img.freepik.com/free-photo/japanese-food-bowl-rice-boiled-white-fish-wakame-chuka-seaweed-salad_2829-17359.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 10,
+            "menuItems": [
+                "Sushi Platter",
+                "Tempura",
+                "Cocktails",
+                "Wasabi Prawns"
+            ],
+            "contact": {
+                "phone": "+91-6655443322",
+                "email": "sunsetlounge@example.com"
+            },
+            "hoursOfOperation": "4:00 PM - 12:00 AM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/japanese-food-bowl-rice-boiled-white-fish-wakame-chuka-seaweed-salad_2829-17359.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "5720102a-e3be-461a-b6dc-c40d5b588744",
+            "name": "Oceanic Spice",
+            "location": "Colaba, South Mumbai",
+            "price": "3500",
+            "priceDetail": "₹ 3,500 for 2 approx",
+            "tags": [
+                "Seafood",
+                "Indian",
+                "5 Star",
+                "Buffet"
+            ],
+            "ratings": "8.9",
+            "image": "https://img.freepik.com/premium-photo/indian-hindu-veg-thali-food-platter-selective-focus_466689-35929.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 25,
+            "menuItems": [
+                "Prawn Curry",
+                "Fish Fry",
+                "Chicken Biryani",
+                "Gajar Halwa"
+            ],
+            "contact": {
+                "phone": "+91-5544332211",
+                "email": "oceanicspice@example.com"
+            },
+            "hoursOfOperation": "11:00 AM - 11:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/premium-photo/indian-hindu-veg-thali-food-platter-selective-focus_466689-35929.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "07537e7c-aae2-4c50-9cda-ff75c75b194b",
+            "name": "City Lights",
+            "location": "Bandra, West Mumbai",
+            "price": "2800",
+            "priceDetail": "₹ 2,800 for 2 approx",
+            "tags": [
+                "Italian",
+                "Mediterranean",
+                "4 Star",
+                "A La Carte"
+            ],
+            "ratings": "7.7",
+            "image": "https://img.freepik.com/premium-photo/paneer-curry_57665-13664.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 10,
+            "menuItems": [
+                "Pasta Arrabbiata",
+                "Greek Salad",
+                "Tiramisu",
+                "Garlic Bread"
+            ],
+            "contact": {
+                "phone": "+91-4433221100",
+                "email": "citylights@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 11:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/premium-photo/paneer-curry_57665-13664.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "95c092eb-805e-4f6f-946f-be6efd35c8ac",
+            "name": "Urban Kitchen",
+            "location": "Worli, South Mumbai",
+            "price": "2200",
+            "priceDetail": "₹ 2,200 for 2 approx",
+            "tags": [
+                "Vegetarian",
+                "Asian",
+                "3 Star",
+                "Buffet"
+            ],
+            "ratings": "7.2",
+            "image": "https://img.freepik.com/premium-photo/biryani-is-mixed-rice-dish_891336-899.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 15,
+            "menuItems": [
+                "Vegetable Biryani",
+                "Spring Rolls",
+                "Stir-fried Tofu",
+                "Mango Lassi"
+            ],
+            "contact": {
+                "phone": "+91-3322110099",
+                "email": "urbankitchen@example.com"
+            },
+            "hoursOfOperation": "11:00 AM - 10:30 PM",
+            "photoGallery": [
+                "https://img.freepik.com/premium-photo/biryani-is-mixed-rice-dish_891336-899.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "2f1013f1-54bd-4191-9906-8c7aaab7434c",
+            "name": "Tandoori Nights",
+            "location": "Thane, North Mumbai",
+            "price": "1800",
+            "priceDetail": "₹ 1,800 for 2 approx",
+            "tags": [
+                "Indian",
+                "Tandoori",
+                "4 Star",
+                "Buffet"
+            ],
+            "ratings": "7.9",
+            "image": "https://img.freepik.com/free-photo/aloo-paratha-gobi-paratha-also-known-as-potato-cauliflower-stuffed-flatbread-dish-originating-from-indian-subcontinent_466689-76172.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 10,
+            "menuItems": [
+                "Tandoori Chicken",
+                "Paneer Tikka",
+                "Naan",
+                "Gulab Jamun"
+            ],
+            "contact": {
+                "phone": "+91-2211009988",
+                "email": "tandoorinights@example.com"
+            },
+            "hoursOfOperation": "11:30 AM - 11:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/aloo-paratha-gobi-paratha-also-known-as-potato-cauliflower-stuffed-flatbread-dish-originating-from-indian-subcontinent_466689-76172.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "09e08e30-8b00-424b-ab05-8e68c146d306",
+            "name": "Mumbai Masala",
+            "location": "Dadar, Central Mumbai",
+            "price": "2000",
+            "priceDetail": "₹ 2,000 for 2 approx",
+            "tags": [
+                "Indian",
+                "Mughlai",
+                "3 Star",
+                "A La Carte"
+            ],
+            "ratings": "6.5",
+            "image": "https://img.freepik.com/free-photo/vertical-shot-chickpea-curry-chana-masala-with-lime-bowl-white-surf_181624-31989.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 20,
+            "menuItems": [
+                "Chana Masala",
+                "Butter Chicken",
+                "Garlic Naan",
+                "Kheer"
+            ],
+            "contact": {
+                "phone": "+91-1100998877",
+                "email": "mumbaimasala@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 10:30 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/vertical-shot-chickpea-curry-chana-masala-with-lime-bowl-white-surf_181624-31989.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "efce7644-7da2-4a38-a43d-de41ce5cea93",
+            "name": "Harbor Delight",
+            "location": "Cuffe Parade, South Mumbai",
+            "price": "3000",
+            "priceDetail": "₹ 3,000 for 2 approx",
+            "tags": [
+                "Seafood",
+                "Continental",
+                "5 Star",
+                "Buffet"
+            ],
+            "ratings": "8.3",
+            "image": "https://img.freepik.com/premium-photo/indian-lunch-dinner-main-course-food-group-includes-paneer-butter-masala-dal-makhani-palak-paneer-roti-rice-etc-selective-focus_466689-6844.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 25,
+            "menuItems": [
+                "Grilled Fish",
+                "Lobster Bisque",
+                "Pasta Alfredo",
+                "Tiramisu"
+            ],
+            "contact": {
+                "phone": "+91-2200112233",
+                "email": "harbordelight@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 11:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/premium-photo/indian-lunch-dinner-main-course-food-group-includes-paneer-butter-masala-dal-makhani-palak-paneer-roti-rice-etc-selective-focus_466689-6844.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "f96c5910-c9f4-4f98-8170-784c0bcb84ae",
+            "name": "Brewery Bay",
+            "location": "Lower Parel, South Mumbai",
+            "price": "3500",
+            "priceDetail": "₹ 3,500 for 2 approx",
+            "tags": [
+                "Brewery",
+                "Pub",
+                "4 Star",
+                "A La Carte"
+            ],
+            "ratings": "8.0",
+            "image": "https://img.freepik.com/premium-photo/indian-vegetable-pulav-biryani-made-using-basmati-rice-served-terracotta-bowl-selective-focus_466689-55615.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 10,
+            "menuItems": [
+                "Craft Beers",
+                "Pub Burger",
+                "Fish and Chips",
+                "Onion Rings"
+            ],
+            "contact": {
+                "phone": "+91-3344556677",
+                "email": "brewerybay@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 12:00 AM",
+            "photoGallery": [
+                "https://img.freepik.com/premium-photo/indian-vegetable-pulav-biryani-made-using-basmati-rice-served-terracotta-bowl-selective-focus_466689-55615.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "d5a1f8b9-4f6d-4986-aaaa-f855f0edc4a7",
+            "name": "Golden Grill",
+            "location": "Goregaon, West Mumbai",
+            "price": "2600",
+            "priceDetail": "₹ 2,600 for 2 approx",
+            "tags": [
+                "American",
+                "Barbecue",
+                "3 Star",
+                "Buffet"
+            ],
+            "ratings": "7.6",
+            "image": "https://img.freepik.com/free-photo/fork-holding-boneless-chicken-piece-with-sauce_23-2149973031.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 15,
+            "menuItems": [
+                "BBQ Ribs",
+                "Grilled Chicken",
+                "Coleslaw",
+                "Potato Salad"
+            ],
+            "contact": {
+                "phone": "+91-5566778899",
+                "email": "goldengrill@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 10:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/fork-holding-boneless-chicken-piece-with-sauce_23-2149973031.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "42fb0c52-a8c7-44b9-bb6e-945e5758f48a",
+            "name": "Spice Garden",
+            "location": "Malad, West Mumbai",
+            "price": "1800",
+            "priceDetail": "₹ 1,800 for 2 approx",
+            "tags": [
+                "Indian",
+                "Chinese",
+                "4 Star",
+                "Buffet"
+            ],
+            "ratings": "7.2",
+            "image": "https://img.freepik.com/free-photo/closeup-shot-deliciously-prepared-chicken-served-with-onions-chili-sauce_181624-61705.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 20,
+            "menuItems": [
+                "Chicken Manchurian",
+                "Vegetable Fried Rice",
+                "Paneer Chili",
+                "Hot and Sour Soup"
+            ],
+            "contact": {
+                "phone": "+91-6677889900",
+                "email": "spicegarden@example.com"
+            },
+            "hoursOfOperation": "11:00 AM - 10:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/closeup-shot-deliciously-prepared-chicken-served-with-onions-chili-sauce_181624-61705.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "3465dd81-b2dd-48b0-a8da-af5bdf02b367",
+            "name": "The Grill House",
+            "location": "Kandivali, North Mumbai",
+            "price": "2000",
+            "priceDetail": "₹ 2,000 for 2 approx",
+            "tags": [
+                "American",
+                "Steakhouse",
+                "5 Star",
+                "A La Carte"
+            ],
+            "ratings": "8.4",
+            "image": "https://img.freepik.com/free-photo/ready-eat-meal-collage-design_23-2150957802.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 25,
+            "menuItems": [
+                "Ribeye Steak",
+                "Mashed Potatoes",
+                "Caesar Salad",
+                "Chocolate Fondant"
+            ],
+            "contact": {
+                "phone": "+91-1122334455",
+                "email": "thegrillhouse@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 11:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/ready-eat-meal-collage-design_23-2150957802.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "c6ca8ff0-36cf-46c2-8d4d-9bd427a57e52",
+            "name": "Paradise Cove",
+            "location": "Borivali, North Mumbai",
+            "price": "1500",
+            "priceDetail": "₹ 1,500 for 2 approx",
+            "tags": [
+                "Seafood",
+                "Indian",
+                "3 Star",
+                "Buffet"
+            ],
+            "ratings": "7.7",
+            "image": "https://img.freepik.com/free-photo/close-up-appetizing-ramadan-meal_23-2151182540.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 10,
+            "menuItems": [
+                "Fish Curry",
+                "Prawn Masala",
+                "Basmati Rice",
+                "Naan"
+            ],
+            "contact": {
+                "phone": "+91-2233445566",
+                "email": "paradisecove@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 10:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/close-up-appetizing-ramadan-meal_23-2151182540.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        }
+    ],
+    "chennai": [
+        {
+            "id": "532f0aa7-0510-4d47-aefa-ef2f62ffed1c",
+            "name": "Soul Spice",
+            "location": "T Nagar, Central Chennai",
+            "price": "1800",
+            "priceDetail": "₹ 1,800 for 2 approx",
+            "tags": [
+                "South Indian",
+                "Continental",
+                "3 Star",
+                "A La Carte"
+            ],
+            "ratings": "6.7",
+            "image": "https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "discount": 50,
+            "menuItems": [
+                "Masala Dosa",
+                "Paneer Butter Masala",
+                "Hakka Noodles",
+                "Chocolate Lava Cake"
+            ],
+            "contact": {
+                "phone": "+91-9988776654",
+                "email": "soulspice@example.com"
+            },
+            "hoursOfOperation": "11:00 AM - 10:00 PM",
+            "photoGallery": [
+                "https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&w=800"
+            ]
+        },
+        {
+            "id": "174c019f-0f28-41aa-846f-ee328242a153",
+            "name": "Mango Tree",
+            "location": "Egmore, Central Chennai",
+            "price": "3500",
+            "priceDetail": "₹ 3,500 for 2 approx",
+            "tags": [
+                "Indian",
+                "Mughlai",
+                "4 Star",
+                "Buffet"
+            ],
+            "ratings": "8.3",
+            "image": "https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "discount": 10,
+            "menuItems": [
+                "Chicken Biryani",
+                "Paneer Tikka",
+                "Garlic Naan",
+                "Mango Lassi"
+            ],
+            "contact": {
+                "phone": "+91-8877665543",
+                "email": "mangotree@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 11:00 PM",
+            "photoGallery": [
+                "https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg?auto=compress&cs=tinysrgb&w=800"
+            ]
+        },
+        {
+            "id": "47306943-db3b-4890-bf30-b5ce529454b0",
+            "name": "Coastal Delights",
+            "location": "Besant Nagar, South Chennai",
+            "price": "2500",
+            "priceDetail": "₹ 2,500 for 2 approx",
+            "tags": [
+                "Seafood",
+                "South Indian",
+                "3 Star",
+                "A La Carte"
+            ],
+            "ratings": "7.9",
+            "image": "https://img.freepik.com/free-photo/gourmet-chicken-biryani-with-steamed-basmati-rice-generated-by-ai_188544-13480.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 20,
+            "menuItems": [
+                "Fish Curry",
+                "Prawn Masala",
+                "Coconut Rice",
+                "Rasam"
+            ],
+            "contact": {
+                "phone": "+91-7766554432",
+                "email": "coastaldelights@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 10:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/gourmet-chicken-biryani-with-steamed-basmati-rice-generated-by-ai_188544-13480.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "3e9e212c-b9ff-4915-80d1-7c481d7d3966",
+            "name": "Flavors of Chennai",
+            "location": "Anna Nagar, North Chennai",
+            "price": "2000",
+            "priceDetail": "₹ 2,000 for 2 approx",
+            "tags": [
+                "Indian",
+                "North Indian",
+                "4 Star",
+                "Buffet"
+            ],
+            "ratings": "7.5",
+            "image": "https://img.freepik.com/premium-photo/national-food-india-with-white-background-high-q_889056-6602.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 15,
+            "menuItems": [
+                "Butter Chicken",
+                "Dal Makhani",
+                "Roti",
+                "Gulab Jamun"
+            ],
+            "contact": {
+                "phone": "+91-6655443321",
+                "email": "flavorsofchennai@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 11:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/premium-photo/national-food-india-with-white-background-high-q_889056-6602.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "a242cc59-2837-4b6d-a899-b503bbc05a81",
+            "name": "Royal Treat",
+            "location": "Mylapore, Central Chennai",
+            "price": "2800",
+            "priceDetail": "₹ 2,800 for 2 approx",
+            "tags": [
+                "Indian",
+                "Mughlai",
+                "5 Star",
+                "Buffet"
+            ],
+            "ratings": "8.6",
+            "image": "https://img.freepik.com/premium-photo/group-south-indian-food-like-masala-dosa-uttapam-idli-idly-wada-vada-sambar-appam-semolina-halwa-upma-served-banana-leaf-with-colourful-chutneys-selective-focus_466689-25677.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 25,
+            "menuItems": [
+                "Chicken Korma",
+                "Hyderabadi Biryani",
+                "Rumali Roti",
+                "Jalebi"
+            ],
+            "contact": {
+                "phone": "+91-5544332210",
+                "email": "royaltreat@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 11:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/premium-photo/group-south-indian-food-like-masala-dosa-uttapam-idli-idly-wada-vada-sambar-appam-semolina-halwa-upma-served-banana-leaf-with-colourful-chutneys-selective-focus_466689-25677.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "8840a719-29cc-422c-8e94-6a952bfe560f",
+            "name": "Café Rendezvous",
+            "location": "Adyar, South Chennai",
+            "price": "2200",
+            "priceDetail": "₹ 2,200 for 2 approx",
+            "tags": [
+                "Café",
+                "Continental",
+                "3 Star",
+                "A La Carte"
+            ],
+            "ratings": "7.2",
+            "image": "https://img.freepik.com/premium-photo/spices-seasonings-powder-splash-explosion-black-background_434420-1928.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 10,
+            "menuItems": [
+                "Cappuccino",
+                "Grilled Sandwich",
+                "Caesar Salad",
+                "Pasta Arrabbiata"
+            ],
+            "contact": {
+                "phone": "+91-9922110033",
+                "email": "caferendezvous@example.com"
+            },
+            "hoursOfOperation": "8:00 AM - 10:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/premium-photo/spices-seasonings-powder-splash-explosion-black-background_434420-1928.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "550a0314-0b28-4839-8aac-365103f061f0",
+            "name": "Spice Junction",
+            "location": "Velachery, South Chennai",
+            "price": "1500",
+            "priceDetail": "₹ 1,500 for 2 approx",
+            "tags": [
+                "Indian",
+                "Chinese",
+                "4 Star",
+                "Buffet"
+            ],
+            "ratings": "6.8",
+            "image": "https://img.freepik.com/free-photo/hands-holding-shish-kebab-with-colorful-bell-peppers_141793-2931.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 20,
+            "menuItems": [
+                "Paneer Butter Masala",
+                "Hakka Noodles",
+                "Chicken Manchurian",
+                "Hot and Sour Soup"
+            ],
+            "contact": {
+                "phone": "+91-8811223344",
+                "email": "spicejunction@example.com"
+            },
+            "hoursOfOperation": "11:00 AM - 10:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/hands-holding-shish-kebab-with-colorful-bell-peppers_141793-2931.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "7ae8b49b-a24c-4f79-af86-52dc806abe2d",
+            "name": "Golden Sands",
+            "location": "Guindy, South Chennai",
+            "price": "2000",
+            "priceDetail": "₹ 2,000 for 2 approx",
+            "tags": [
+                "Seafood",
+                "Continental",
+                "5 Star",
+                "Buffet"
+            ],
+            "ratings": "8.0",
+            "image": "https://img.freepik.com/free-photo/top-view-japanese-meal-assortment_23-2148809872.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 15,
+            "menuItems": [
+                "Grilled Fish",
+                "Prawn Risotto",
+                "Chicken Alfredo",
+                "Caesar Salad"
+            ],
+            "contact": {
+                "phone": "+91-7700112233",
+                "email": "goldensands@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 11:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/top-view-japanese-meal-assortment_23-2148809872.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "c4d4b2ad-274b-4662-aaf1-d0e79aff6e38",
+            "name": "Chettinad Palace",
+            "location": "Tambaram, South Chennai",
+            "price": "2800",
+            "priceDetail": "₹ 2,800 for 2 approx",
+            "tags": [
+                "South Indian",
+                "Chettinad",
+                "4 Star",
+                "A La Carte"
+            ],
+            "ratings": "7.5",
+            "image": "https://img.freepik.com/free-photo/delicious-asian-noodles-concept_23-2148773773.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 10,
+            "menuItems": [
+                "Chettinad Chicken Curry",
+                "Vegetable Kurma",
+                "Dosa",
+                "Rasam"
+            ],
+            "contact": {
+                "phone": "+91-6699221133",
+                "email": "chettinadpalace@example.com"
+            },
+            "hoursOfOperation": "11:30 AM - 10:30 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/delicious-asian-noodles-concept_23-2148773773.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "7fe2e270-53b7-407f-af0c-ad250b2ade33",
+            "name": "Masala Mantra",
+            "location": "Pallavaram, South Chennai",
+            "price": "3200",
+            "priceDetail": "₹ 3,200 for 2 approx",
+            "tags": [
+                "Indian",
+                "North Indian",
+                "3 Star",
+                "Buffet"
+            ],
+            "ratings": "7.9",
+            "image": "https://img.freepik.com/free-photo/vertical-view-various-types-uncooked-pastas-mixed-color-background_140725-92103.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 25,
+            "menuItems": [
+                "Butter Chicken",
+                "Paneer Tikka",
+                "Biryani",
+                "Garlic Naan"
+            ],
+            "contact": {
+                "phone": "+91-9088776655",
+                "email": "masalamantra@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 11:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/vertical-view-various-types-uncooked-pastas-mixed-color-background_140725-92103.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        }
+    ],
+    "bengaluru": [
+        {
+            "id": "532f0aa7-0510-4d47-aefa-ef2f62ffed1c",
+            "name": "Soul Spice",
+            "location": "MG Road, Central Bengaluru",
+            "price": "1800",
+            "priceDetail": "₹ 1,800 for 2 approx",
+            "tags": [
+                "South Indian",
+                "Continental",
+                "3 Star",
+                "A La Carte"
+            ],
+            "ratings": "6.7",
+            "image": "https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "discount": 50,
+            "menuItems": [
+                "Masala Dosa",
+                "Paneer Butter Masala",
+                "Hakka Noodles",
+                "Chocolate Lava Cake"
+            ],
+            "contact": {
+                "phone": "+91-9988776654",
+                "email": "soulspice@example.com"
+            },
+            "hoursOfOperation": "11:00 AM - 10:00 PM",
+            "photoGallery": [
+                "https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&w=800"
+            ]
+        },
+        {
+            "id": "174c019f-0f28-41aa-846f-ee328242a153",
+            "name": "Mango Tree",
+            "location": "Indiranagar, East Bengaluru",
+            "price": "3500",
+            "priceDetail": "₹ 3,500 for 2 approx",
+            "tags": [
+                "Indian",
+                "Mughlai",
+                "4 Star",
+                "Buffet"
+            ],
+            "ratings": "8.3",
+            "image": "https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "discount": 10,
+            "menuItems": [
+                "Chicken Biryani",
+                "Paneer Tikka",
+                "Garlic Naan",
+                "Mango Lassi"
+            ],
+            "contact": {
+                "phone": "+91-8877665543",
+                "email": "mangotree@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 11:00 PM",
+            "photoGallery": [
+                "https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg?auto=compress&cs=tinysrgb&w=800"
+            ]
+        },
+        {
+            "id": "47306943-db3b-4890-bf30-b5ce529454b0",
+            "name": "Coastal Delights",
+            "location": "Koramangala, South Bengaluru",
+            "price": "2500",
+            "priceDetail": "₹ 2,500 for 2 approx",
+            "tags": [
+                "Seafood",
+                "South Indian",
+                "3 Star",
+                "A La Carte"
+            ],
+            "ratings": "7.9",
+            "image": "https://img.freepik.com/free-photo/gourmet-chicken-biryani-with-steamed-basmati-rice-generated-by-ai_188544-13480.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 20,
+            "menuItems": [
+                "Fish Curry",
+                "Prawn Masala",
+                "Coconut Rice",
+                "Rasam"
+            ],
+            "contact": {
+                "phone": "+91-7766554432",
+                "email": "coastaldelights@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 10:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/gourmet-chicken-biryani-with-steamed-basmati-rice-generated-by-ai_188544-13480.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "3e9e212c-b9ff-4915-80d1-7c481d7d3966",
+            "name": "Flavors of Bengaluru",
+            "location": "Jayanagar, South Bengaluru",
+            "price": "2000",
+            "priceDetail": "₹ 2,000 for 2 approx",
+            "tags": [
+                "Indian",
+                "North Indian",
+                "4 Star",
+                "Buffet"
+            ],
+            "ratings": "7.5",
+            "image": "https://img.freepik.com/premium-photo/national-food-india-with-white-background-high-q_889056-6602.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 15,
+            "menuItems": [
+                "Butter Chicken",
+                "Dal Makhani",
+                "Roti",
+                "Gulab Jamun"
+            ],
+            "contact": {
+                "phone": "+91-6655443321",
+                "email": "flavorsofbengaluru@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 11:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/premium-photo/national-food-india-with-white-background-high-q_889056-6602.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "a242cc59-2837-4b6d-a899-b503bbc05a81",
+            "name": "Royal Treat",
+            "location": "Indiranagar, East Bengaluru",
+            "price": "2800",
+            "priceDetail": "₹ 2,800 for 2 approx",
+            "tags": [
+                "Indian",
+                "Mughlai",
+                "5 Star",
+                "Buffet"
+            ],
+            "ratings": "8.6",
+            "image": "https://img.freepik.com/premium-photo/group-south-indian-food-like-masala-dosa-uttapam-idli-idly-wada-vada-sambar-appam-semolina-halwa-upma-served-banana-leaf-with-colourful-chutneys-selective-focus_466689-25677.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 25,
+            "menuItems": [
+                "Chicken Korma",
+                "Hyderabadi Biryani",
+                "Rumali Roti",
+                "Jalebi"
+            ],
+            "contact": {
+                "phone": "+91-5544332210",
+                "email": "royaltreat@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 11:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/premium-photo/group-south-indian-food-like-masala-dosa-uttapam-idli-idly-wada-vada-sambar-appam-semolina-halwa-upma-served-banana-leaf-with-colourful-chutneys-selective-focus_466689-25677.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "8840a719-29cc-422c-8e94-6a952bfe560f",
+            "name": "Café Rendezvous",
+            "location": "Koramangala, South Bengaluru",
+            "price": "2200",
+            "priceDetail": "₹ 2,200 for 2 approx",
+            "tags": [
+                "Café",
+                "Continental",
+                "3 Star",
+                "A La Carte"
+            ],
+            "ratings": "7.2",
+            "image": "https://img.freepik.com/premium-photo/spices-seasonings-powder-splash-explosion-black-background_434420-1928.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 10,
+            "menuItems": [
+                "Cappuccino",
+                "Grilled Sandwich",
+                "Caesar Salad",
+                "Pasta Arrabbiata"
+            ],
+            "contact": {
+                "phone": "+91-9922110033",
+                "email": "caferendezvous@example.com"
+            },
+            "hoursOfOperation": "8:00 AM - 10:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/premium-photo/spices-seasonings-powder-splash-explosion-black-background_434420-1928.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "550a0314-0b28-4839-8aac-365103f061f0",
+            "name": "Spice Junction",
+            "location": "MG Road, Central Bengaluru",
+            "price": "1500",
+            "priceDetail": "₹ 1,500 for 2 approx",
+            "tags": [
+                "Indian",
+                "Chinese",
+                "4 Star",
+                "Buffet"
+            ],
+            "ratings": "6.8",
+            "image": "https://img.freepik.com/free-photo/hands-holding-shish-kebab-with-colorful-bell-peppers_141793-2931.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 20,
+            "menuItems": [
+                "Paneer Butter Masala",
+                "Hakka Noodles",
+                "Chicken Manchurian",
+                "Hot and Sour Soup"
+            ],
+            "contact": {
+                "phone": "+91-8811223344",
+                "email": "spicejunction@example.com"
+            },
+            "hoursOfOperation": "11:00 AM - 10:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/hands-holding-shish-kebab-with-colorful-bell-peppers_141793-2931.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "7ae8b49b-a24c-4f79-af86-52dc806abe2d",
+            "name": "Golden Sands",
+            "location": "Whitefield, East Bengaluru",
+            "price": "2000",
+            "priceDetail": "₹ 2,000 for 2 approx",
+            "tags": [
+                "Seafood",
+                "Continental",
+                "5 Star",
+                "Buffet"
+            ],
+            "ratings": "8.0",
+            "image": "https://img.freepik.com/free-photo/top-view-japanese-meal-assortment_23-2148809872.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 15,
+            "menuItems": [
+                "Grilled Fish",
+                "Prawn Risotto",
+                "Chicken Alfredo",
+                "Caesar Salad"
+            ],
+            "contact": {
+                "phone": "+91-7700112233",
+                "email": "goldensands@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 11:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/top-view-japanese-meal-assortment_23-2148809872.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "c4d4b2ad-274b-4662-aaf1-d0e79aff6e38",
+            "name": "Chettinad Palace",
+            "location": "Jayanagar, South Bengaluru",
+            "price": "2800",
+            "priceDetail": "₹ 2,800 for 2 approx",
+            "tags": [
+                "South Indian",
+                "Chettinad",
+                "4 Star",
+                "A La Carte"
+            ],
+            "ratings": "7.5",
+            "image": "https://img.freepik.com/free-photo/delicious-asian-noodles-concept_23-2148773773.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 10,
+            "menuItems": [
+                "Chettinad Chicken Curry",
+                "Vegetable Kurma",
+                "Dosa",
+                "Rasam"
+            ],
+            "contact": {
+                "phone": "+91-6699221133",
+                "email": "chettinadpalace@example.com"
+            },
+            "hoursOfOperation": "11:30 AM - 10:30 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/delicious-asian-noodles-concept_23-2148773773.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        },
+        {
+            "id": "7fe2e270-53b7-407f-af0c-ad250b2ade33",
+            "name": "Masala Mantra",
+            "location": "Marathahalli, East Bengaluru",
+            "price": "3200",
+            "priceDetail": "₹ 3,200 for 2 approx",
+            "tags": [
+                "Indian",
+                "North Indian",
+                "3 Star",
+                "Buffet"
+            ],
+            "ratings": "7.9",
+            "image": "https://img.freepik.com/free-photo/vertical-view-various-types-uncooked-pastas-mixed-color-background_140725-92103.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph",
+            "discount": 25,
+            "menuItems": [
+                "Butter Chicken",
+                "Paneer Tikka",
+                "Biryani",
+                "Garlic Naan"
+            ],
+            "contact": {
+                "phone": "+91-9088776655",
+                "email": "masalamantra@example.com"
+            },
+            "hoursOfOperation": "12:00 PM - 11:00 PM",
+            "photoGallery": [
+                "https://img.freepik.com/free-photo/vertical-view-various-types-uncooked-pastas-mixed-color-background_140725-92103.jpg?size=626&ext=jpg&ga=GA1.1.51770993.1710842715&semt=sph"
+            ]
+        }
+    ]
+}

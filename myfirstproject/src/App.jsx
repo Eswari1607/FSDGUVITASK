@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css'
-import Circle from './components/Circle';
+
 
 
 
@@ -23,7 +23,7 @@ function handleSubstrat(){
 }*/}
 
 
-function App(){
+{/*function App(){
   const data = [{button:"Add"},{button:"sub"},{button:"multip"}]
   return( <>
   {
@@ -31,6 +31,37 @@ function App(){
   }
   </>
   )
+}*/}
+
+function App (){
+  const data =[
+    {Title: "Trial 1",
+      Features: [{Task:"Line 1",isok:true},{Task:"Line 2",isok:false}, {Task:"Line 3",isok:true}]},
+     { Title: "Trial 2",
+      Features: [{Task:"Line A",isok:true},{Task:"Line B",isok:false}, {Task:"Line C",isok:true}]},
+     { Title: "Trial 3",
+      Features: [{Task:"Line X",isok:true},{Task:"Line Y",isok:false}, {Task:"Line Z",isok:true}]}
+  ]
+  return (
+    <div>
+      <input placeholder='Enter task here' onChange={() => {console.log('changing')
+
+      }}/>
+      <button>Save</button>
+      {data.map((element,index)=>{
+        return (
+          <div key={index}> 
+<h3>{element.Title}</h3>
+<ul>
+  {element.Features.map((item,index) => <li key={index} 
+  style={{textDecoration:item.isok ? 'line-through':'none'}}> {item.Task}</li>)}
+</ul>
+          </div>
+        )
+
+      })}
+    </div>
+  )
 }
 
-export default App
+export default App;
